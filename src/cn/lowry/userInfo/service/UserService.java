@@ -15,4 +15,12 @@ public interface UserService {
      * @return
      */
     public List<User> findAll();
+
+    /**
+     * 登录方法
+     *
+     * @param user
+     * @return
+     */
+    User login(User user);
 }
