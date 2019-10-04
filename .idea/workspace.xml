@@ -6,37 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10061baf-d194-42e3-ba6b-86c5c6efc93a" name="Default Changelist" comment="项目初始化 完成列表功能">
-      <change afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/loginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/WEB-INF/classes/cn/lowry/userInfo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/User_Info_war_exploded/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/User_Info/cn/lowry/userInfo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lowry/userInfo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lowry/userInfo/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lowry/userInfo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lowry/userInfo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lowry/userInfo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lowry/userInfo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+    <list default="true" id="10061baf-d194-42e3-ba6b-86c5c6efc93a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,16 +72,25 @@
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/loginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/loginServlet.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="380">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/lowry/userInfo/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/cn/lowry/userInfo/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/loginServlet.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -433,7 +414,7 @@
       <updated>1569935428028</updated>
       <workItem from="1569935430219" duration="11052000" />
       <workItem from="1570008542991" duration="2390000" />
-      <workItem from="1570031593034" duration="21012000" />
+      <workItem from="1570031593034" duration="22426000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化 完成列表功能">
       <created>1570085629548</created>
@@ -442,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570085629548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成登录功能">
+      <created>1570195532243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570195532243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34454000" />
+    <option name="totallyTimeSpent" value="35868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,6 +447,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" id="Project" order="0" sideWeight="0.497921" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -479,7 +468,7 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.22141372" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.22141372" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.22141372" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.14345114" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -561,7 +550,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化 完成列表功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化 完成列表功能" />
+    <MESSAGE value="完成登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成登录功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -675,7 +665,7 @@
     <entry file="file://$PROJECT_DIR$/src/cn/lowry/userInfo/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -761,14 +751,21 @@
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lowry/userInfo/web/servlet/loginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
-          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
