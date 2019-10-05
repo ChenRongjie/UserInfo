@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet("/userListServlet")
-public class userListServlet extends HttpServlet {
+public class UserListServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.调用UserService完成查询
         UserService service = new UserServiceImpl();

@@ -23,4 +23,11 @@ public interface UserService {
      * @return
      */
     User login(User user);
+
+    /**
+     * 保存User
+     *
+     * @param user
+     */
+    void addUser(User user);
 }
