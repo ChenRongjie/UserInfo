@@ -26,6 +26,37 @@
             text-align: center;
         }
     </style>
+    <script>
+        function deleteUser() {
+
+        }
+
+        $(function () {
+                $('#myModal').on('shown.bs.modal', function () {
+
+                    //初始化模态框高度为 屏幕高度/2
+                    var modalHeight = $(window).height() / 3;
+
+                    //将上面的高度设置到 modal-dialog中的margin-top属性中
+                    $(this).find('.modal-dialog').css({
+                        'margin-top': modalHeight
+                    });
+                });
+            }
+        )
+
+        function delcfm(id) {
+            $('#id').val(id);//给会话中的隐藏属性id赋值
+            console.log("赋值" + id);
+            $('#myModal').modal();
+        }
+
+        function deleteUser() {
+            var id = $.trim($("#id").val());//获取会话中的隐藏属性URL
+            console.log("取值" + id);
+            window.location.href = "${pageContext.request.contextPath}/delUserServlet?id=" + id;
+        }
+    </script>
 </head>
 <body>
 <div class="container">
@@ -74,8 +105,8 @@
                 <td>${user.address}</td>
                 <td>${user.qq}</td>
                 <td>${user.email}</td>
-                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;<a class="btn btn-default btn-sm"
-                                                                                        href="">删除</a></td>
+                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;
+                    <a class="btn btn-default btn-sm" href="javascript:delcfm(${user.id});">删除</a></td>
             </tr>
         </c:forEach>
     </table>
@@ -103,6 +134,26 @@
                 </span>
             </ul>
         </nav>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Tip</h4>
+                </div>
+                <div class="modal-body">
+                    确定删除选中的信息吗
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" id="id"/>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" onclick="deleteUser()">确定</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
