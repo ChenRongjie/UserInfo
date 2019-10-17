@@ -105,7 +105,8 @@
                 <td>${user.address}</td>
                 <td>${user.qq}</td>
                 <td>${user.email}</td>
-                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;
+                <td><a class="btn btn-default btn-sm"
+                       href="${pageContext.request.contextPath}/findUserServlet?id=${user.id}">修改</a>&nbsp;
                     <a class="btn btn-default btn-sm" href="javascript:delcfm(${user.id});">删除</a></td>
             </tr>
         </c:forEach>
